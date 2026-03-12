@@ -1,0 +1,13 @@
+{
+  "name": "chatbot-ui-root-proxy",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "npm --prefix chatbot-ui-main run dev",
+    "build": "npm --prefix chatbot-ui-main run build",
+    "start": "npm --prefix chatbot-ui-main run start",
+    "test": "npm --prefix chatbot-ui-main run test"
+  },
+  "description": "Top-level proxy scripts to run the chatbot-ui project from the workspace root",
+  "license": "UNLICENSED"
+}
